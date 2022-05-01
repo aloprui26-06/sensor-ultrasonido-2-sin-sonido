@@ -20,6 +20,7 @@ basic.forever(function () {
                 . # . # .
                 # . . . #
                 `)
+            music.startMelody(music.builtInMelody(Melodies.Funeral), MelodyOptions.Once)
             maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 255)
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
@@ -28,6 +29,7 @@ basic.forever(function () {
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
             basic.pause(1000)
+            music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
             maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 50)
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
             basic.pause(500)
@@ -42,6 +44,7 @@ basic.forever(function () {
                 . # . # .
                 # . . . #
                 `)
+            music.startMelody(music.builtInMelody(Melodies.Funeral), MelodyOptions.Once)
             maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 255)
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
@@ -50,6 +53,7 @@ basic.forever(function () {
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
             basic.pause(1000)
+            music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
             maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
             basic.pause(500)

@@ -1,5 +1,5 @@
 {
-    "name": "sensor ultrasonido 2 (sin sonido)",
+    "name": "sensor ultrasonido 2",
     "description": "",
     "dependencies": {
         "core": "*",
